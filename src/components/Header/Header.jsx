@@ -30,6 +30,7 @@ const useStyles = makeStyles({
         marginRight: "20px",
     },
     mic: {
+        color: "#D1D1D1",
         marginRight: "20px",
     },
 });
