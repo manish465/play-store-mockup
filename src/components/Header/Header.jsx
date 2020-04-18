@@ -10,6 +10,7 @@ import {
 
 import MenuIcon from "@material-ui/icons/Menu";
 import MicNoneIcon from "@material-ui/icons/MicNone";
+import AvatarImg from "../../assets/Avatar.png";
 
 const useStyles = makeStyles({
     inputHeader: {
@@ -54,7 +55,7 @@ const Header = () => {
                     <MicNoneIcon />
                 </IconButton>
                 <IconButton>
-                    <Avatar />
+                    <Avatar src={AvatarImg} />
                 </IconButton>
             </Grid>
         </Grid>
