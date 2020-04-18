@@ -10,11 +10,11 @@ import {
 
 import MenuIcon from "@material-ui/icons/Menu";
 import MicNoneIcon from "@material-ui/icons/MicNone";
-import AvatarImg from "../../assets/Avatar.png";
+import AvatarImg from "../../assets/AvatarCircleImage/Avatar.png";
 
 const useStyles = makeStyles({
     inputHeader: {
-        width: "1868px",
+        width: "auto",
         background: "#9E9E9E",
         borderRadius: "21px",
         height: "60px",
