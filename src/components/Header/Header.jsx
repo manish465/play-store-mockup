@@ -17,19 +17,19 @@ const useStyles = makeStyles({
         width: "auto",
         background: "#9E9E9E",
         borderRadius: "21px",
-        height: "60px",
+        height: "80px",
         margin: "22px 26px",
         boxShadow: "0 3px 14px",
         justifyContent: "center",
     },
-    menueIcon: {
+    menueIconButton: {
         marginLeft: "20px",
         color: "#D1D1D1",
     },
     iconAvatar: {
         marginRight: "20px",
     },
-    mic: {
+    micButton: {
         color: "#D1D1D1",
         marginRight: "20px",
     },
@@ -41,8 +41,8 @@ const Header = () => {
     return (
         <Grid alignItems='center' className={classes.inputHeader} container>
             <Grid container alignItems='center' xs>
-                <IconButton className={classes.menueIcon}>
-                    <MenuIcon />
+                <IconButton className={classes.menueIconButton}>
+                    <MenuIcon fontSize='large' />
                 </IconButton>
                 <InputBase placeholder='Search for apps and games' />
             </Grid>
@@ -52,8 +52,8 @@ const Header = () => {
                 justify='flex-end'
                 className={classes.iconAvatar}
                 xs>
-                <IconButton className={classes.mic}>
-                    <MicNoneIcon />
+                <IconButton className={classes.micButton}>
+                    <MicNoneIcon fontSize='large' />
                 </IconButton>
                 <IconButton>
                     <Avatar src={AvatarImg} />
