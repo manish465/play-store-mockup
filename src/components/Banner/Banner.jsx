@@ -9,7 +9,7 @@ import CardImage from "./CardImage";
 
 const useStyles = makeStyles({
     cardGrid: {
-        marginTop: "97px",
+        marginTop: "27px",
     },
 });
 

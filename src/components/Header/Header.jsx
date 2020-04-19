@@ -17,7 +17,7 @@ const useStyles = makeStyles({
         width: "auto",
         background: "#9E9E9E",
         borderRadius: "21px",
-        height: "80px",
+        height: "70px",
         margin: "22px 26px",
         boxShadow: "0 3px 14px",
         justifyContent: "center",
